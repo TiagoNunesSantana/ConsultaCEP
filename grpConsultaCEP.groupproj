@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{06B60DCF-2FB0-49E0-A353-9E23818676E8}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ConsultaCEP.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Test\ConsultaCEPTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ConsultaCEP">
+        <MSBuild Projects="ConsultaCEP.dproj"/>
+    </Target>
+    <Target Name="ConsultaCEP:Clean">
+        <MSBuild Projects="ConsultaCEP.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ConsultaCEP:Make">
+        <MSBuild Projects="ConsultaCEP.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ConsultaCEPTests">
+        <MSBuild Projects="Test\ConsultaCEPTests.dproj"/>
+    </Target>
+    <Target Name="ConsultaCEPTests:Clean">
+        <MSBuild Projects="Test\ConsultaCEPTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ConsultaCEPTests:Make">
+        <MSBuild Projects="Test\ConsultaCEPTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ConsultaCEP;ConsultaCEPTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ConsultaCEP:Clean;ConsultaCEPTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ConsultaCEP:Make;ConsultaCEPTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

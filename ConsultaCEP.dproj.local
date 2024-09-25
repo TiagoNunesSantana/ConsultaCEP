@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/09/24 13:12:57.000.508,=C:\Users\tiago\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/24 13:13:57.000.541,=C:\Users\tiago\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/09/24 13:14:20.000.289,C:\Users\tiago\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Projetos\CodigoX\uConsultaCEP.dfm</Transaction>
+    <Transaction>2024/09/24 13:14:20.000.289,C:\Users\tiago\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Projetos\CodigoX\uConsultaCEP.pas</Transaction>
+    <Transaction>2024/09/24 13:14:38.000.267,C:\Users\tiago\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.dfm=C:\Projetos\CodigoX\uDMConsultaCEP.dfm</Transaction>
+    <Transaction>2024/09/24 13:14:38.000.267,C:\Users\tiago\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas=C:\Projetos\CodigoX\uDMConsultaCEP.pas</Transaction>
+    <Transaction>2024/09/24 14:12:23.000.741,C:\Users\tiago\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Projetos\CodigoX\ConsultaCEP.dproj</Transaction>
+    <Transaction>2024/09/25 09:24:16.222,=C:\Projetos\CodigoX\Unit1.pas</Transaction>
+    <Transaction>2024/09/25 09:24:49.006,C:\Projetos\CodigoX\Controller\uUtil.pas=C:\Projetos\CodigoX\Unit1.pas</Transaction>
+    <Transaction>2024/09/25 09:25:42.791,C:\Projetos\CodigoX\View\uConsultaCEP.pas=C:\Projetos\CodigoX\uConsultaCEP.pas</Transaction>
+    <Transaction>2024/09/25 09:25:42.791,C:\Projetos\CodigoX\View\uConsultaCEP.dfm=C:\Projetos\CodigoX\uConsultaCEP.dfm</Transaction>
+    <Transaction>2024/09/25 09:26:13.455,C:\Projetos\CodigoX\Model\uModelDMConsultaCEP.pas=C:\Projetos\CodigoX\uDMConsultaCEP.pas</Transaction>
+    <Transaction>2024/09/25 09:26:13.455,C:\Projetos\CodigoX\Model\uModelDMConsultaCEP.dfm=C:\Projetos\CodigoX\uDMConsultaCEP.dfm</Transaction>
+    <Transaction>2024/09/25 09:26:30.343,C:\Projetos\CodigoX\Controller\uControllerUtil.pas=C:\Projetos\CodigoX\Controller\uUtil.pas</Transaction>
+    <Transaction>2024/09/25 09:26:46.454,C:\Projetos\CodigoX\View\uViewConsultaCEP.dfm=C:\Projetos\CodigoX\View\uConsultaCEP.dfm</Transaction>
+    <Transaction>2024/09/25 09:26:46.454,C:\Projetos\CodigoX\View\uViewConsultaCEP.pas=C:\Projetos\CodigoX\View\uConsultaCEP.pas</Transaction>
+  </Transactions>
+</BorlandProject>
